@@ -22,8 +22,8 @@ public class AppTest
     public void blackJackTest(){
         app = new App();
         assertEquals("Expected: ",21,app.blackJack(21,18));
-        assertEquals("Expected: ",20, app.blackJack(20,15));
-        assertEquals("Expected: ",4, app.blackJack(23,4));
+        assertEquals("Expected: ",20,app.blackJack(20,15));
+        assertEquals("Expected: ",4,app.blackJack(23,4));
         assertEquals("Expected: ",0,app.blackJack(23,24));
     }
     /**
